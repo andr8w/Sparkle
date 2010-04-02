@@ -219,6 +219,7 @@ static NSString * const SUUpdaterDefaultsObservationContext = @"SUUpdaterDefault
 - (void)unregisterAsObserver
 {
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	if ([host bundle] != [NSBundle mainBundle]) return;
     // Removing self as a KVO observer if no observer was registered leads to an NSException. But we don't care.
 	@try
 	{
