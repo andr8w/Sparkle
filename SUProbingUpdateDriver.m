@@ -27,4 +27,12 @@
 	[self abortUpdate];
 }
 
+- (void)appcast:(SUAppcast *)ac failedToLoadWithError:(NSError *)error
+{
+	[super appcast:ac failedToLoadWithError:error];
+	
+	if ([[updater delegate] respondsToSelector:@selector(updater:encounteredError:)])
+		[[updater delegate] updater:updater encounteredError:error];
+}
+
 @end

@@ -92,6 +92,9 @@
 // Sent when a valid update is not found.
 - (void)updaterDidNotFindUpdate:(SUUpdater *)update;
 
+// Sent when en error occurs.
+- (void)updater:(SUUpdater *)updater encounteredError:(NSError *)error;
+
 // Sent immediately before installing the specified update.
 - (void)updater:(SUUpdater *)updater willInstallUpdate:(SUAppcastItem *)update;
 
