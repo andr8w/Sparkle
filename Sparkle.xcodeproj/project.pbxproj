@@ -1228,14 +1228,6 @@
 			};
 			name = Debug;
 		};
-		1DEB91AF08733DA50010E9CD /* Release-Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
-			buildSettings = {
-				GCC_DEBUGGING_SYMBOLS = full;
-			};
-			name = "Release-Beta";
-		};
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1243,55 +1235,48 @@
 			};
 			name = Debug;
 		};
-		1DEB91B308733DA50010E9CD /* Release-Beta */ = {
+		490A40A01169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				WARNING_CFLAGS = "-Wundeclared-selector";
 			};
-			name = "Release-Beta";
+			name = Release;
 		};
-		490A40A01169261A00054909 /* Release-Internal */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				WARNING_CFLAGS = "-Wundeclared-selector";
-			};
-			name = "Release-Internal";
-		};
-		490A40A11169261A00054909 /* Release-Internal */ = {
+		490A40A11169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				GCC_DEBUGGING_SYMBOLS = full;
 			};
-			name = "Release-Internal";
+			name = Release;
 		};
-		490A40A21169261A00054909 /* Release-Internal */ = {
+		490A40A21169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
 			buildSettings = {
 			};
-			name = "Release-Internal";
+			name = Release;
 		};
-		490A40A31169261A00054909 /* Release-Internal */ = {
+		490A40A31169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
 			};
-			name = "Release-Internal";
+			name = Release;
 		};
-		490A40A41169261A00054909 /* Release-Internal */ = {
+		490A40A41169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
 			buildSettings = {
 			};
-			name = "Release-Internal";
+			name = Release;
 		};
-		490A40A51169261A00054909 /* Release-Internal */ = {
+		490A40A51169261A00054909 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
 			buildSettings = {
 			};
-			name = "Release-Internal";
+			name = Release;
 		};
 		5D06E8D20FD68C7D005AE3F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1299,13 +1284,6 @@
 			buildSettings = {
 			};
 			name = Debug;
-		};
-		5D06E8D30FD68C7D005AE3F6 /* Release-Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D06E8F30FD68D21005AE3F6 /* ConfigBinaryDeltaRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = "Release-Beta";
 		};
 		5D06E8D40FD68C7D005AE3F6 /* Release (GC dual-mode; 10.5-only) */ = {
 			isa = XCBuildConfiguration;
@@ -1356,26 +1334,12 @@
 			};
 			name = Debug;
 		};
-		612279DC0DB5470300AB99EA /* Release-Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3AAF391050B273004B3130 /* ConfigUnitTestRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = "Release-Beta";
-		};
 		61B5F90609C4CEE300B25A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CB0D94A70100DD942E /* ConfigTestAppDebug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
-		};
-		61B5F90709C4CEE300B25A18 /* Release-Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA1941D20D94A70100DD942E /* ConfigTestAppRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = "Release-Beta";
 		};
 		DAAEFC980DA571DF0051E0D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1384,13 +1348,6 @@
 			};
 			name = Debug;
 		};
-		DAAEFC990DA571DF0051E0D0 /* Release-Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
-			buildSettings = {
-			};
-			name = "Release-Beta";
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1398,67 +1355,61 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91AE08733DA50010E9CD /* Debug */,
-				1DEB91AF08733DA50010E9CD /* Release-Beta */,
-				490A40A11169261A00054909 /* Release-Internal */,
+				490A40A11169261A00054909 /* Release */,
 				61072EAE0DF263BD008FE88B /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sparkle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
-				1DEB91B308733DA50010E9CD /* Release-Beta */,
-				490A40A01169261A00054909 /* Release-Internal */,
+				490A40A01169261A00054909 /* Release */,
 				61072EAD0DF263BD008FE88B /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 		5D06E8DA0FD68C95005AE3F6 /* Build configuration list for PBXNativeTarget "BinaryDelta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D06E8D20FD68C7D005AE3F6 /* Debug */,
-				5D06E8D30FD68C7D005AE3F6 /* Release-Beta */,
-				490A40A51169261A00054909 /* Release-Internal */,
+				490A40A51169261A00054909 /* Release */,
 				5D06E8D40FD68C7D005AE3F6 /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 		612279DD0DB5470300AB99EA /* Build configuration list for PBXNativeTarget "Sparkle Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				612279DB0DB5470300AB99EA /* Debug */,
-				612279DC0DB5470300AB99EA /* Release-Beta */,
-				490A40A41169261A00054909 /* Release-Internal */,
+				490A40A41169261A00054909 /* Release */,
 				61072EB10DF263BD008FE88B /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 		61B5F90509C4CEE300B25A18 /* Build configuration list for PBXNativeTarget "Sparkle Test App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61B5F90609C4CEE300B25A18 /* Debug */,
-				61B5F90709C4CEE300B25A18 /* Release-Beta */,
-				490A40A21169261A00054909 /* Release-Internal */,
+				490A40A21169261A00054909 /* Release */,
 				61072EAF0DF263BD008FE88B /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 		DAAEFC9A0DA571FD0051E0D0 /* Build configuration list for PBXNativeTarget "relaunch tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAAEFC980DA571DF0051E0D0 /* Debug */,
-				DAAEFC990DA571DF0051E0D0 /* Release-Beta */,
-				490A40A31169261A00054909 /* Release-Internal */,
+				490A40A31169261A00054909 /* Release */,
 				61072EB00DF263BD008FE88B /* Release (GC dual-mode; 10.5-only) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release-Beta";
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
